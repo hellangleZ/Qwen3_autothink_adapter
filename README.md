@@ -5,6 +5,9 @@ Idea and partial code got from https://github.com/AaronFeng753/Better-Qwen3
 
 Thanks @AaronFeng753
 
+This system automatically applies Qwen3's classification and 'thinking' processes using a unified model. By default, the classifier activates a 'no thinking' state to save tokens and reduce latency, with negligible impact on the overall response. The classifier then automatically selects between 'think' and 'no think' modes based on the incoming query.
+The output clearly shows the debug status, whether 'thinking' mode is active, and all output content. This information can be selectively displayed.
+
 
 Reaosning：
 ![image](https://github.com/user-attachments/assets/0bf32274-f159-4614-ae13-c3be69a937d4)
